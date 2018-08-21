@@ -21,16 +21,28 @@ export default class App extends Component {
     super(props);
     const configs = [
       {
+        name: 'imweb',
+        icon: require('./img/imweb-icon.png'),
+        rules: require('./data/configs/imweb.json'),
+        enabled: true
+      },
+      {
+        name: 'alloyteam',
+        icon: require('./img/alloyteam-icon.png'),
+        rules: require('./data/configs/alloyteam.json'),
+        enabled: true
+      },
+      {
         name: 'airbnb',
         icon: require('./img/airbnb-icon.png'),
         rules: require('./data/configs/airbnb-base.json'),
-        enabled: true
+        enabled: false
       },
       {
         name: 'eslint-recommended',
         icon: require('./img/eslint-recommended-icon.png'),
         rules: require('./data/configs/eslint-recommended.json'),
-        enabled: true
+        enabled: false
       },
       {
         name: 'google',
@@ -42,7 +54,7 @@ export default class App extends Component {
         name: 'standard',
         icon: require('./img/standard-icon.png'),
         rules: require('./data/configs/standard.json'),
-        enabled: true
+        enabled: false
       },
       {
         name: 'custom',

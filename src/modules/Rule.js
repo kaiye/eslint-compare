@@ -67,9 +67,11 @@ const Rule = ({ name, description, configs }) => {
     <tr>
       {ruleNodes}
       <td>
-        <a href={`http://eslint.org/docs/rules/${name}`}>
-          {name}
+        <a href={`http://eslint.org/docs/rules/${name}`}>{name}</a>[
+        <a href={`https://alloyteam.github.io/eslint-config-alloy/#${name}`}>
+          CN
         </a>
+        ]
       </td>
       <td>
         {description}
