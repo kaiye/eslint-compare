@@ -12,3 +12,8 @@ Deploy
 npm run build
 npm run deploy
 ```
+
+ESlint
+```
+npx eslint --print-config src > data.json
+```

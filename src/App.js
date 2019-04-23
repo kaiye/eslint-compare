@@ -24,25 +24,25 @@ export default class App extends Component {
         name: 'imweb',
         icon: require('./img/imweb-icon.png'),
         rules: require('./data/configs/imweb.json'),
-        enabled: true
+        enabled: false
       },
       {
         name: 'alloyteam',
         icon: require('./img/alloyteam-icon.png'),
         rules: require('./data/configs/alloyteam.json'),
-        enabled: true
+        enabled: false
       },
       {
         name: 'airbnb',
         icon: require('./img/airbnb-icon.png'),
         rules: require('./data/configs/airbnb-base.json'),
-        enabled: false
+        enabled: true
       },
       {
         name: 'eslint-recommended',
         icon: require('./img/eslint-recommended-icon.png'),
         rules: require('./data/configs/eslint-recommended.json'),
-        enabled: false
+        enabled: true
       },
       {
         name: 'google',
@@ -54,7 +54,7 @@ export default class App extends Component {
         name: 'standard',
         icon: require('./img/standard-icon.png'),
         rules: require('./data/configs/standard.json'),
-        enabled: false
+        enabled: true
       },
       {
         name: 'custom',

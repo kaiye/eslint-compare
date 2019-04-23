@@ -673,6 +673,9 @@
         "name": "prefer-const",
         "description": "require const declarations for variables that are never reassigned after declared"
     }, {
+        "name": "prefer-destructuring",
+        "description": "require destructuring from arrays and/or objects"
+    }, {
         "name": "prefer-numeric-literals",
         "description": "disallow parseInt() in favor of binary, octal, and hexadecimal literals"
     }, {
